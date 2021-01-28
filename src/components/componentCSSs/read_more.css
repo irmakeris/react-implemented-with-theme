@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+.breadcrumb {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.breadcrumb a:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scaleY(1.5);
+  font-size: 2rem;
+}
