@@ -1,5 +1,5 @@
 # REACT TMDB MOVIE CATALOG
-React TMDB Movie Catalog is a responsive movie search and view engine made with ReactJS using continuosly updated data from The Movie Database (TMDB).
+React TMDB Movie Catalog is a responsive movie search and view engine made with ReactJS using continuosly updated data from The Movie Database (TMDB). This project is created for only personal development and practical purposes, no commercial purpose is pursued.
 
 ## Live Demo
 A live demo can be viewed at https://react-implemented-with-theme.stackblitz.io
