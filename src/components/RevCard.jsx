@@ -50,7 +50,7 @@ function RevCard(props) {
                   setLoadMore(!loadMore);
                 }}
               >
-                {linkName}
+                {extra.length > 0 ? linkName : ""}
               </Link>
               <div>{loadMore && extra}</div>
             </p>
