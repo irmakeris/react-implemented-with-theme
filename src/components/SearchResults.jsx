@@ -15,6 +15,7 @@ function SearchResults(props) {
   const Clicker = event => {
     event.preventDefault();
     history.push(`/search?q=${inputted}`);
+    setQ(window.location.href);
   };
 
   React.useEffect(() => {
@@ -22,7 +23,7 @@ function SearchResults(props) {
     fetch(SEARCH_API + q)
       .then(rsp => rsp.json())
       .then(data => setMovies(data.results));
-  }, [location]);
+  }, [q]);
 
   return (
     <div className="mt-4 pt-5">
